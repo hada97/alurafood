@@ -11,11 +11,11 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-
 import java.net.URI;
 
+
 @RestController
-@RequestMapping("Pagamentos")
+@RequestMapping("/pagamentos")
 public class Controller {
 
     @Autowired
