@@ -5,7 +5,7 @@
 ## ⚙️ Funcionalidades
 
 A API oferece as seguintes funcionalidades:
-- **CRUD de Pagamentos **: Criação, leitura, atualização e exclusão de Pagamentos.
+- **CRUD de Pagamentos**: Criação, leitura, atualização e exclusão de Pagamentos.
 
 
 ## 🛠 Tecnologias Utilizadas
