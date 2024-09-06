@@ -18,12 +18,12 @@ public class PagamentoService {
     PagamentoRepository repository;
 
     @Autowired
-    private ModelMapper modelMappe;
+    private ModelMapper modelMapper;
 
     public Page<PagamentoDto> obterTodos(Pageable paginacao) {
         return repository
                 .findAll(paginacao)
-                .map(p -> modelmMpper.map(p, PagamentoDto.class));
+                .map(p -> modelMapper.map(p, PagamentoDto.class));
     }
 
     public PagamentoDto obterPorId(Long id) {
