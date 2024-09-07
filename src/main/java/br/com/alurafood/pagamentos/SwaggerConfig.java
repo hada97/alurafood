@@ -12,9 +12,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title( " Rest + Spring + MySql + Swagger")
+                        .title( " Rest API")
                         .version("v1")
-                        .description("API Rest desenvolvida por Adailson G.")
+                        .description("API Rest Pagamentos desenvolvida por Adailson G.")
                 );
     }
 }
